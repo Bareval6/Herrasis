@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/ingresar_equipos"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_icon1"
+            android:drawablePadding="8dp"
+            android:text="Ingresar Equipos" />
+
+        <Button
+            android:id="@+id/inventario"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_icon2"
+            android:drawablePadding="8dp"
+            android:text="Inventario" />
+
+
+        <Button
+            android:id="@+id/mantenimiento"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_icon3"
+            android:drawablePadding="8dp"
+            android:text="Mantenimeinto" />
+
+        <Button
+            android:id="@+id/solicitudes"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_icon4"
+            android:drawablePadding="8dp"
+            android:text="Solicitudes" />
+
+        <Button
+            android:id="@+id/Estadistica"
+            android:layout_width="0dp"
+            android:layout_height="189dp"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/ic_icon5"
+            android:drawablePadding="8dp"
+            android:text="Estadistica" />
+
+    </GridLayout>
+
+</LinearLayout>
