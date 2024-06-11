@@ -7,13 +7,37 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <Button
+        android:id="@+id/btnAbrirAgregarEquipo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Agregar Equipo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/btnAbrirBuscarEquipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Equipo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/btnAbrirBorrarEquipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar Equipo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/btnAbrirListadoEquipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listado de Equipos"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="392dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
